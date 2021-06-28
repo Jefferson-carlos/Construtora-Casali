@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar {
+    width: 1vw;  
+}        
+body::-webkit-scrollbar-thumb {
+    background-color: #979797;   
+    border-radius: 20px;
+  }
+.img_header{
+    width: 8rem;
+    margin: 7px 5%;
+    padding: 5px;
+    background: #383838;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    transition: all  .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+.menu{
+    width: 100%;
+    font-family: sans-serif;
+    margin: 0 2%;
+}
+.menu ul{
+    list-style: none;
+    align-items: center;
+}
+.menu ul li{
+    width: 32%;
+    float: left;
+}
+.menu a{
+    padding: 5px 0px;
+    margin-top: 0px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem; 
+    transition:all  .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+.menu a:hover{
+    background: #ffffff;
+    color: rgb(2, 2, 2);
+    border-radius: 20px;
+}
+.img_header:hover{
+    width: 180px;
+    height: auto;
+    background: #383838;
+    margin-right:30px;
+}
+.label-menu{
+    padding: 0 5px;
+    color: whitesmoke;
+    font-family: arial;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#bt_menu{
+    display: none;
+}
+.label-menu{
+    display: none;
+}
+.nave{
+    display: flex;
+    align-items: center;
+    background-color: #ffaa48;   
+}
+.corpo2{
+    display: flex;
+}
+.posi_serviço_img{
+    margin: 5% 0 2% 3%;
+    width: 30vw;
+}
+.serviço_img{
+    height: auto;
+    width: 30vw;
+    box-shadow:rgba(0, 0, 0, 0.5) 7px 7px 15px 0px;
+}
+.posi_serviço_text{
+    padding: 5%;
+    font-family: Sans-serif;
+    text-align: left;
+    margin-top: 10%;
+}
+.posi_serviço_text p{
+    color: rgb(75, 75, 75);
+    font-family: "Roboto", Sans-serif;
+    font-size: 105%;
+}
+.posi_serviço_text h1{
+    color: black;
+    font-family:"Roboto", Sans-serif;
+    font-size: 3vw;
+    margin-bottom: .5em;
+}
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}

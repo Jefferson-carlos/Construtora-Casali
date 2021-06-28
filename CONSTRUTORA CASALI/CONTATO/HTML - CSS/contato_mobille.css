@@ -1,0 +1,117 @@
+@media (max-width: 782px){
+    .fale_conosco{
+        margin-top: 5vw;
+    }
+    .fale_conosco h1{
+        font-size: 7vw;
+    }
+    .info_formulario{
+        display: block;
+    }
+    .info_form{
+        width: 90%;
+    }
+    .info_form h2{
+        font-size: 8vw;
+    }
+    .info_form p{
+        font-size: 4vw;
+    }
+    .div_formulario{
+        width: 100%;
+        margin: 3vw 0vw 2vw 9vw;
+    }
+    .div_formulario h3{
+        font-size: 4.5vw;
+        margin: .2vw 0;
+    }
+    .space_form{
+        font-size: 3vw;
+        padding-left:10px;
+        width: 80vw;
+        height: 7vw;
+    }
+    .space_mensagem{
+        font-size: 1vw;
+        padding-left:10px;
+        width: 80vw;
+        height: 20vw;
+    }
+    .enviar{
+        border-radius: 10px;
+        margin-left: 60.5vw;
+    }
+    .bot_enviar{
+        padding: 2vw 3vw;
+        width: 20vw; 
+        font-size: 3vw; 
+        cursor: pointer;
+    }
+    .bot_enviar:hover{
+        padding: 2vw 3vw;
+        width: 20vw; 
+        font-size: 3vw; 
+    }
+    .corpo4{
+        display: block;
+        text-align: center;
+    }
+    .div_mapa{
+        padding-top: 5%;
+        margin-left: 10vw;
+        width: 80%;
+    }
+    .rodape_direito{
+        margin: 2% 2% 0 2%;
+        padding-bottom: 1vh;
+    }
+    .fone_end{
+        display: flex;
+        margin: 3vw 0vw;
+        text-align: center;
+    }
+    .fone{
+        display: flex;
+        background-color: white;
+        font-family:"Roboto", Sans-serif;
+        border-radius: 20px;
+        padding: 1vw;
+        margin: 0% 0 0% 0;
+        font-size: 6vw;
+        text-align: center;
+        align-items: center;
+    }
+    .fone a{
+        color: #727272;
+        font-size: 5vw;
+    }
+    .end{
+        background-color: white;
+        border-radius: 15px;
+        padding: 1vh;
+        text-align: center;
+        margin: 0 0 0 3vw;
+    }
+    .end p{
+        color: #727272;
+        font-size: 4.5vw;
+    }
+    .end h2{
+        font-size: 6vw;
+    }
+    .email{
+        padding: 1%;
+        margin-top:.5vw;
+    }
+    .email h1{
+        font-size: 8vw;
+    }
+    .email p{
+        font-size: 5vw;
+        color: #727272;
+    }
+    .email p a{
+        font-size: 5vw; 
+        color: rgb(252, 135, 2);
+    }
+}

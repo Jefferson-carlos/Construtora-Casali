@@ -1,0 +1,188 @@
+@media (max-width: 600px){
+    .fundo{
+        background: rgba(0,0,0,.3);
+        padding: 0 0 150% 0;
+    } 
+    .label-menu{
+        display: block;
+    }
+    .menu{
+        margin-top: -100%;
+        transition: all .8s;
+    }
+    #bt_menu:checked ~ .menu{
+        margin-top: 2%;
+    }
+    #bt_menu:checked ~ .menu a{
+        transition:all  .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    }
+    #bt_menu:checked ~ .label_menu{
+        display: none;
+    }
+    .menu ul li{
+        width: 100%;
+        float: none;
+    }
+    .menu ul ul{
+        overflow: hidden;
+        max-height: 0;
+        transition: all .8s;
+    }
+    .menu ul li:hover ul{
+        height: auto;
+        max-height: 600px;
+    }
+    .text_page_home{
+        margin: 10% 3% 0 0;
+        text-align: right;
+    }
+    .list_nav{
+        display: block;
+        margin-left: 15px;
+        margin-top: 1%;
+    }
+}
+@media (max-width: 782px){
+    .text_page_home h1{
+        font-size: 10vw;
+        margin-bottom: 2%;
+    }
+    .list_nav a{
+        font-size: 3.4vw;
+        padding: 1.7vw;
+    }
+    .list_nav a:hover{
+        border-radius: 21px;
+    }
+    .corpo2 {
+     display: block;
+     margin: 10vh 5%
+    }
+    .posi_quem_somos_img{
+        margin: 10% 2% 3% 2%;
+    }
+    .posi_quem_somos_text h1{
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    .posi_quem_somos_text{
+        text-align: center;
+        padding: 0px;
+    }
+    .posi_quem_somos_text h1{
+        color: black;
+        font-family:"Roboto", Sans-serif;
+        font-size: 4.5vh;
+        margin-bottom: .5em;
+    }
+    .colun_text{
+        width: auto;
+    }
+    .corpo3{
+        display: block;
+    
+    }
+    .logo_missão_img{
+        width: 20vw;
+        height: auto;
+        border: rgb(255, 134, 37) solid 4px;
+        border-radius: 20px;
+        padding: 2vw;
+    }
+    .logo_valores_img{
+        width: 20vw;
+        height: auto;
+        border: rgb(255, 134, 37) solid 4px;
+        border-radius: 20px;
+        padding: 2vw;
+    }
+    .logo_visão_img{
+        width: 20vw;
+        height: auto;
+    }
+    .corpo4{
+        display: block;
+        text-align: center;
+    }
+    .rodape_mensagem{
+        padding-top: 5%;
+        margin: 0;
+        width: 100%;
+    }
+    .logo_rodape{
+        width: 95%;
+    }
+    .mensagem{
+        width: 100%;
+        margin: 0 0 4% 6%;
+    }
+    .icon_mensagem{
+        padding-left: 1vw;
+        width: 12vw;
+    }
+    .envie{
+        font-size: 120%;
+        padding: 3vw;
+    }
+    .rodape_direito{
+        margin: 2% 2% 0 2%;
+        padding-bottom: 1vh;
+    }
+    .fone_end{
+        display: flex;
+        margin: 3vw 0vw;
+        text-align: center;
+    }
+    .fone{
+        display: flex;
+        background-color: white;
+        font-family:"Roboto", Sans-serif;
+        border-radius: 20px;
+        padding: 1vw;
+        margin: 0% 0 0% 0;
+        font-size: 6vw;
+        text-align: center;
+        align-items: center;
+    }
+    .fone a{
+        color: #727272;
+        font-size: 5vw;
+    }
+    .end{
+        background-color: white;
+        border-radius: 15px;
+        padding: 1vh;
+        text-align: center;
+        margin: 0 0 0 3vw;
+    }
+    .end p{
+        color: #727272;
+        font-size: 4.5vw;
+    }
+    .end h2{
+        font-size: 6vw;
+    }
+    .email{
+        padding: 1%;
+        margin-top:.5vw;
+    }
+    .email h1{
+        font-size: 8vw;
+    }
+    .email p{
+        font-size: 5vw;
+        color: #727272;
+    }
+    .email p a{
+        font-size: 5vw; 
+        color: rgb(252, 135, 2);
+    }
+}
+@media (max-width: 400px){
+    .list_nav a{
+        font-size: 6vw;
+    }
+}

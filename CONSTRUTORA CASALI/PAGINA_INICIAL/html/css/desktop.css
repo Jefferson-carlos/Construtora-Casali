@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar {
+    width: 1vw;  
+}        
+body::-webkit-scrollbar-thumb {
+    background-color: #979797;   
+    border-radius: 20px;
+  }
+.page1{
+    background-image:url(https://static.wixstatic.com/media/7b03d7_4a059224d4dd49258748a4817f45be44~mv2_d_2592_1944_s_2.jpg/v1/fill/w_1349,h_625,al_t,q_85,usm_0.66_1.00_0.01/7b03d7_4a059224d4dd49258748a4817f45be44~mv2_d_2592_1944_s_2.webp);
+    background-size:cover;
+    background-position: bottom center;
+}
+.fundo{
+    background: rgba(0,0,0,.3);
+    padding: 0 0 35% 0;
+}    
+.img_header{
+    width: 8rem;
+    margin: 7px 5%;
+    padding: 5px;
+    background: #383838;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    transition: all  .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+.menu{
+    width: 100%;
+    font-family: sans-serif;
+    margin: 0 2%;
+}
+.menu ul{
+    list-style: none;
+    align-items: center;
+}
+.menu ul li{
+    width: 32%;
+    float: left;
+}
+.menu a{
+    padding: 5px 0px;
+    margin-top: 0px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 1.25rem; 
+    transition:all  .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+.menu a:hover{
+    background: #fdfd96;
+    color: rgb(124, 124, 124);
+    border-radius: 20px;
+}
+.img_header:hover{
+    width: 180px;
+    height: auto;
+    background: #383838;
+    margin-right:30px;
+}
+.label-menu{
+    padding: 0 5px;
+    color: whitesmoke;
+    font-family: arial;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#bt_menu{
+    display: none;
+}
+.label-menu{
+    display: none;
+}
+.nave{
+    display: flex;
+    align-items: center;   
+}
+.corpo{
+    margin-top: 3%;
+    font-family: sans-serif;
+}
+.text_page_home{
+    margin: 5% 3% 0 0;
+    text-align: right;
+    color: rgb(253, 255, 112);
+    
+}
+.text_page_home h1{
+    font-size: 5vw;
+}
+.list_nav{
+    margin: 1% 2% 0 0; 
+}
+.list_nav h2{
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+.list_nav a{
+    font-size: 2vw;
+    text-decoration: none;
+    padding: .5vw;
+    transition:all  .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+.list_nav a:hover{
+    background: #fafa71;
+    color: rgb(124, 124, 124);
+    border-radius: 15px;
+}
+.corpo2{
+    display: flex;
+    margin-top: 10vh;
+}
+.posi_quem_somos_img{
+    margin: 5% 0 0 3%;
+}
+.quem_somos_img{
+    height: auto;
+    width: 45vw;
+    box-shadow:rgba(0, 0, 0, 0.5) 7px 7px 15px 0px;
+}
+.posi_quem_somos_text{
+    padding: 5%;
+    font-family: Sans-serif;
+    text-align: left;
+}
+.posi_quem_somos_text p{
+    color: rgb(75, 75, 75);
+    font-family: "Roboto", Sans-serif;
+    font-size: 105%;
+}
+.posi_quem_somos_text h1{
+    color: black;
+    font-family:"Roboto", Sans-serif;
+    font-size: 3vw;
+    margin-bottom: .5em;
+}
+.corpo3{
+    display: flex;
+    margin: 15% 5%;
+}
+.colun{
+    margin: 3% 2%;
+}
+.colun_text h1{
+    color: rgb(0, 0, 0);
+}
+.colun_text{
+    color: rgb(75,75,75);
+    font-family:"Roboto", Sans-serif;
+    text-align: center;
+    width: 26vw;
+}
+.logo_missão{
+    text-align: center;
+}
+.logo_visão{
+    text-align: center;
+}
+.logo_valores{
+    text-align: center;
+}
+.logo_missão_img{
+    padding: 0;
+    width: 10vw;
+    height: auto;
+    border: rgb(255, 134, 37) solid 4px;
+    border-radius: 10px;
+    padding: 1vw;
+}
+.logo_visão_img{
+    width: 10vw;
+    height: auto;
+}
+.logo_valores_img{
+    width: 10VW;
+    height: auto;
+    border: rgb(255, 134, 37) solid 4px;
+    border-radius: 20px;
+    padding: 1vw;
+}
+.corpo4{
+    display: flex;
+    background-color: rgb(255, 164, 45);
+}
+.rodape_mensagem{
+    padding-top: 6.2%;
+    margin: 0 1vw;
+    width: 50%;
+}
+.logo_rodape{
+    border-radius: 20px;
+    width: 80%;
+    height: auto;
+}
+.mensagem{
+    display: flex;
+    margin:5% 0 5% 7%;
+}
+.icon_mensagem{
+    padding-left: 1vw;
+    width: 5vw;
+    height: auto;
+    transition:all  .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+.icon_mensagem:hover {
+    margin-left: 2vw;
+}
+.envie{
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-family:"Roboto", Sans-serif;
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: #383838;
+    padding: 1.5vw;
+    transition:all  .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+}
+.rodape_direito{
+    margin-right:2%;
+    padding-top: 3%;
+}
+.fone_end{
+    display: flex;
+    margin: 2vw 5vw;
+    text-align: center;
+}
+.fone{
+    display: flex;
+    background-color: white;
+    font-family:"Roboto", Sans-serif;
+    border-radius: 20px;
+    padding: 1vw;
+    margin: 0% 0 0% 0;
+    font-size: 2vw;
+    text-align: center;
+    align-items: center;
+}
+.fone a{
+    color: #727272;
+    font-size: 1.5vw;
+}
+.end{
+    background-color: white;
+    border-radius: 20px;
+    padding: 1vh;
+    text-align: center;
+    margin: 0 0 0 5vw;
+}
+.end p{
+    color: #727272;
+    font-size: 1vw;
+}
+.end h2{
+    font-size: 2vw;
+}
+.email{
+    background-color: white;
+    border-radius: 20px;
+    padding: 1%;
+    margin: 1vw 0 0 0;
+    text-align: center;
+    font-family: "roboto" sans-serif;
+}
+.email h1{
+    font-size: 2vw;
+}
+.email p{
+    font-size: 1.3vw;
+    color: #727272;
+}
+.email p a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.3vw;
+    transition:all  .20s ease-in-out;
+    -o-transition: all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -webkit-transition: all .20s ease-in-out;
+}
+.email p a:hover{
+    color: rgb(255, 136, 0);
+}
